@@ -1,32 +1,32 @@
 //q1
-// var a = 123;
-// var b; 
-// sum = 0;
-// var z = a;
-// while(a > 0)
-// {
-// b = a % 10;
-// sum = sum * 10 + b;
-// a = parseInt(a / 10);
-// }
-// alert(sum);
+var a = 123;
+var b; 
+sum = 0;
+var z = a;
+while(a > 0)
+{
+b = a % 10;
+sum = sum * 10 + b;
+a = parseInt(a / 10);
+}
+alert(sum);
 
 // q2
 
-//function that check str is palindrome or not
-// function pal(){
-//     var x=document.getElementById("a").value;
-//     var y="";
-//     for (i=x.lenght-1;i>0;i--){
-//         y=y+x[i];
-//     }
-//     if(x===y)
-//         document.getElementById("b").value=y+"is a palindrome";
-//         else
-//         document.getElementById("b").value=y+"is Not a palindrome";
+
+function pal(){
+    var x=document.getElementById("a").value;
+    var y="";
+    for (i=x.lenght-1;i>0;i--){
+        y=y+x[i];
+    }
+    if(x===y)
+        document.getElementById("b").value=y+"is a palindrome";
+        else
+        document.getElementById("b").value=y+"is Not a palindrome";
         
     
-// }
+}
 //q3
 let possibleCombinations = (str) =>{
     let combinations = [];
@@ -110,4 +110,4 @@ function test_prime(n)
 }
 
 console.log(test_prime(37));
-// q9
+
